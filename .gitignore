@@ -1,9 +1,27 @@
-.gemini/
-.github/
+# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+out/
+dist/
+
+# Environment files (secrets)
+.env*
+!.env.example
+
+# IDE
 .vscode/
-bmad/
-PRD_Veritas_Protocol.md
-product_brief_veritas_protocol.md
-veritas_protocol_architecture_proposal.md
-VERITAS_PROTOCOL_ARCHITECTURE.md
-veritas_protocol_publishing_flow.puml
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Hardhat
+cache/
+artifacts/
+typechain-types/
+
+# Misc
+*.log

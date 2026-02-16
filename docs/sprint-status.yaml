@@ -1,0 +1,21 @@
+# Veritas Micro-MVP Sprint Status
+# Managed by BMM Dev Agent
+
+project_name: Veritas Protocol
+project_level: 1
+status: in-progress
+
+status_definitions:
+  drafted: "Story has been created but not yet reviewed for technical readiness"
+  ready-for-dev: "Story is technically ready and waiting in the backlog"
+  in-progress: "Story is currently being implemented by a developer"
+  review: "Implementation is complete and waiting for code review"
+  done: "Story is complete, tested, and reviewed"
+
+development_status:
+  story-veritas-01: review
+  story-veritas-02: review
+  story-veritas-03: ready-for-dev
+
+epics:
+  epic-veritas-01: in-progress
